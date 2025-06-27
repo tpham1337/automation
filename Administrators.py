@@ -7,8 +7,8 @@ from msgraph import GraphServiceClient
 
 #If you want to use Automation (For example sending mail), don't use ClientSecretCredential - instead use DefaultAzureCredential for your system managed identity
 credential = ClientSecretCredential(
-    tenant_id='88aa07cb-2eb1-4f56-9d01-a813487b009c',
-    client_id='2879e885-9e4f-4fa2-9ea4-4467a15bed2b',
+    tenant_id='YOUR TENANT ID',
+    client_id='YOUR CLIENT ID',
     client_secret='YOUR CLIENT SECRET'
 )
 scopes = ['https://graph.microsoft.com/.default']
